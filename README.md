@@ -2,7 +2,7 @@
 
 > **An agentic AI system that decides whether a support issue can be resolved by the user or must be escalated, and executes that decision.**
 
-This project demonstrates how **GPT-4 can be used as a decision-making engine**, not a chatbot, replacing manual triage, reducing support load, and enforcing clear operational outcomes.
+This project demonstrates how **GPT-4 can be used as a decision-making engine**, not a chatbot, replacing manual triage, reducing support load, and enforcing clear operational outcomes. **The system’s primary value is decision routing, not answer generation.**
 
 ---
 
