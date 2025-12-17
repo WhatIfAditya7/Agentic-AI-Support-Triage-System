@@ -2,7 +2,7 @@
 
 > **An agentic AI system that decides whether a support issue can be resolved by the user or must be escalated, and executes that decision.**
 
-This project demonstrates how **GPT-4 can be used as a decision-making engine**, not a chatbot — replacing manual triage, reducing support load, and enforcing clear operational outcomes.
+This project demonstrates how **GPT-4 can be used as a decision-making engine**, not a chatbot, replacing manual triage, reducing support load, and enforcing clear operational outcomes.
 
 ---
 
@@ -19,10 +19,10 @@ Common examples include:
 
 In many companies today, **every one of these becomes a ticket**, which leads to:
 
-- 🚧 Support queues filling up  
-- 🧑‍🔧 Maintenance teams being distracted  
-- ⏳ High-priority issues getting delayed  
-- 💸 Unnecessary operational costs  
+- Support queues filling up  
+- Maintenance teams being distracted  
+- High-priority issues getting delayed  
+- Unnecessary operational costs  
 
 At the same time, **traditional chatbots fail** because they:
 
@@ -66,9 +66,9 @@ The agent:
 
 There is:
 
-- ❌ No infinite chat loop  
-- ❌ No vague advice  
-- ✅ Always a clear outcome  
+- No infinite chat loop  
+- No vague advice  
+- Always a clear outcome  
 
 ---
 
@@ -98,7 +98,7 @@ This makes the system **auditable, predictable, and production-ready**.
 
 ### 1️⃣ User Submits a Ticket
 
-The user enters a short description in the UI:
+The user enters a short description in the UI: <br>
 ![logo](https://github.com/WhatIfAditya7/Agentic-AI-Support-Triage-System/blob/main/Screenshot%201.jpg) <br>
 
 > *“Cannot change card details on the billing page”*
@@ -120,7 +120,7 @@ This replaces brittle rule-based logic with **true semantic reasoning**.
 
 ### 3️⃣ Decision Boundary (Key Agentic Step)
 
-The system makes an **explicit decision**:
+The system makes an **explicit decision**: <br>
 ![logo](https://github.com/WhatIfAditya7/Agentic-AI-Support-Triage-System/blob/main/Screenshot%202.jpg) <br>
 - ✅ **Self-Resolvable** → guide the user  
 - 🚨 **Not Self-Resolvable** → escalate immediately  
@@ -143,7 +143,7 @@ If the user confirms the issue is unresolved, **automatic escalation** occurs.
 
 ### 5️⃣ Escalation Path (Tool Execution)
 
-If escalation is required:
+If escalation is required: <br>
 ![logo](https://github.com/WhatIfAditya7/Agentic-AI-Support-Triage-System/blob/main/Screenshot%203.jpg) <br>
 - A maintenance tool is invoked
 - A ticket is created with:
@@ -163,27 +163,33 @@ This simulates real integrations such as:
 
 ## 🖥️ User Interface Philosophy
 
-The UI is intentionally **business-first**.
+The UI is intentionally **business-first**. <br>
 ![logo](https://github.com/WhatIfAditya7/Agentic-AI-Support-Triage-System/blob/main/Screenshot%204.jpg) <br>
 ### Business users see:
 - Clear issue summary  
 - What they should try  
 - What happens next  
 
-## 📂 Project Structure
-ticket-triage-ai/
-├── app.py # Streamlit application entry point
-├── README.md # Project documentation
-├── requirements.txt # Python dependencies
-├── screenshots/ # Demo images for README
-├── data/
-│ └── tickets.csv # Sample support tickets for testing
-└── src/
-├── init.py
-├── llm_triage.py # GPT-4 triage agent (decision logic)
-└── tools/
-├── init.py
-└── escalate.py # Escalation tool (ticket creation simulation)
+## 🎯 Why This Project Matters
+This project demonstrates:
+
+- Real-world GPT-4 usage beyond chat
+- Agentic decision workflows
+- Cost-saving automation design
+- Safe escalation patterns
+- Clear separation of reasoning, action, and presentation
+
+It mirrors systems used in:
+
+- IT support
+- Facilities management
+- Healthcare operations
+- Enterprise SaaS platforms
+
+## 🧠 Key Takeaway
+
+**The future of AI in business is not conversation — it is decision + action.**
+
 
 
 
