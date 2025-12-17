@@ -188,7 +188,7 @@ It mirrors systems used in:
 
 ## 🧠 Key Takeaway
 
-**The future of AI in business is not conversation — it is decision + action.**
+**The future of AI in business is not conversation, it is decision + action.**
 
 
 
